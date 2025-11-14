@@ -1,5 +1,5 @@
 import pandas as pd
 
-series = pd.Series([1,2,3,4,5,6], index = ['a','b','c','d','e','f'])
+series = pd.Series([1,2,3,4,5,6], index = ['a','b','c','d','e','f'], name = 'Alphabets')
 
 print(series)
