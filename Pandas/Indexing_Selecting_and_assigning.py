@@ -21,3 +21,5 @@ print(reviews.country)
 print(reviews['country'])
 
 print(reviews['country'][0])
+
+#indexing
