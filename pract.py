@@ -1,10 +1,13 @@
 import pandas as pd
-data = pd.read_csv("D:\Studies\Projects\Python\AI-ML-DL\data\chatgpt_cleaned.csv", index_col=0)
-print(data.head())
-print()
-print(data.info())
-print()
-print(data.describe())
-print(data.shape)
 
+df = pd.DataFrame({
+    "Name": ["A", "B", "C", "D"],
+    "Age": [21, 22, 23, 24],
+    "Marks": [90, 85, 88, 92]
+}, index=["a", "b", "c", "d"])
 
+print(df)
+
+print(df.loc["b"])
+print(df.loc["b", "Age"])
+print(df.loc[["a", "c", "d"]])

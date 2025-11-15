@@ -14,3 +14,10 @@ reviews = pd.read_csv("D:\Studies\Projects\Python\AI-ML-DL\data\winemag-data-130
 pd.set_option('display.max_rows', 5)
 #seeing each columns of a dataset (csv file)
 
+print(reviews)
+
+print(reviews.country)
+
+print(reviews['country'])
+
+print(reviews['country'][0])
