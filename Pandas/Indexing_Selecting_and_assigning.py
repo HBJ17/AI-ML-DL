@@ -22,4 +22,5 @@ print(reviews['country'])
 
 print(reviews['country'][0])
 
-#indexing
+print(reviews.loc[2])
+

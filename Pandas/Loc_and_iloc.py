@@ -21,3 +21,5 @@ print(df.iloc[[0, 2]])
 print(df.iloc[1, 1])
 print(df.iloc[0:2])
 print(df.iloc[0:2, 0:2])
+
+
