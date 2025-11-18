@@ -1,3 +1,4 @@
+'''
 import matplotlib.pyplot as plt
 # Load the data
 X = [[10, 50], [5, 40], [15, 60], [20, 65], [12, 55], [8, 35], [18, 75], [12, 45], [23, 85], [15, 55]] # customer behavior variables (number of purchases and average purchase amount)
@@ -11,7 +12,7 @@ plt.xlabel('Number of purchases')
 plt.ylabel('Average purchase amount')
 plt.title('Customer behavior vs. churn outcome')
 plt.show()
-
+'''
 #Import necessary libraries
 from sklearn.linear_model import LogisticRegression
 import matplotlib.pyplot as plt
