@@ -24,3 +24,4 @@ print(reviews['country'][0])
 
 print(reviews.loc[2])
 
+

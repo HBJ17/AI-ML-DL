@@ -16,12 +16,17 @@ print("Slope:", model.coef_)
 print("Intercept:", model.intercept_)
 
 # Prediction
-X_new = np.array([[600]])
+X_new = np.array([[1500]])
 y_pred = model.predict(X_new)
 print("Predicted Price:", y_pred)
 
 # Plot the data and the line of best fit
 plt.scatter(X, y, color='blue')
 plt.plot(X, model.predict(X), color='red')
+plt.plot(X_new, y_pred, )
+plt.xlabel('Independent Variable')
+plt.ylabel('Dependent Variable')
+plt.title('Linear Regression for x and y Values')
 plt.show()
+
 
