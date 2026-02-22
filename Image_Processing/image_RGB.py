@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread("Image_Processing\MainBefore.jpg", 0)  
+img = cv2.imread("Image_Processing\MainBefore.jpg", 1)  
 
 print(img[50][100])   
 img[50][100] = 255    
